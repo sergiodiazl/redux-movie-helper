@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    font-family: "Concert One";
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #a9adac;
+    min-height: 10vh;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #e27a3f;
+    text-decoration: none;
+    text-shadow: 0.1rem 0.1rem 0.1rem #aaa;
+  }
+  header a {
+   
+    text-decoration: none;
+  }

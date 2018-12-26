@@ -1,0 +1,7 @@
+.loading-movie{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    color:#e27a3f;
+}

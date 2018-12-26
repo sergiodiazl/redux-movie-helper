@@ -1,0 +1,11 @@
+.not-found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#e27a3f; 
+    font-size:3rem;
+    text-decoration: none;
+    text-shadow: 0.1rem 0.3rem 0.3rem #aaa;
+	font-family: "Concert One","Oswald";
+}

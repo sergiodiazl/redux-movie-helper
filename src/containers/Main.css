@@ -1,0 +1,14 @@
+.main {
+	display: flex;
+	font-family: "Concert One","Oswald";
+	align-items: stretch;
+	
+}
+
+@media ( max-width :600px){
+	.main{
+		display: flex;
+		flex-direction: column;
+		
+	}
+}

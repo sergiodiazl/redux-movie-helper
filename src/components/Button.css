@@ -1,0 +1,102 @@
+.search-button,
+.navigation-button,
+.back-button {
+  display: flex;
+  justify-content: center;
+}
+.search-button button,
+.navigation-button button,
+.back-button button,
+.locale-button button {
+  padding: 10px 21px;
+  background: #e27a3f;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  cursor: pointer;
+  outline: 0;
+  text-decoration: none;
+
+  font-family: 'Concert One', 'Oswald';
+}
+
+.search-button button {
+  width: 90%;
+  color: #fff;
+  border-radius: 0% 0% 100% 100%;
+  border: 3px solid;
+  border-color: #e27a3f;
+
+  box-shadow: 0.05vh 0.05vh 0.5vh 0.25vh rgb(30, 57, 87);
+  text-shadow: 0.1rem 0.1rem 0.2rem #99552e;
+  font-size: 2rem;
+}
+.navigation-button button {
+  padding: 10px 21px;
+  background: #e27a3f;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  cursor: pointer;
+  border: 3px solid;
+  border-color: #e27a3f;
+
+  border-radius: 1% 1% 5% 5%;
+  box-shadow: 0.1vh 0.1vh 1vh black;
+  text-decoration: none;
+  font-family: 'Concert One', 'Oswald';
+}
+.locale-button button {
+  padding: 5px 10px;
+  border: 3px solid;
+  border-color: #e27a3f;
+
+  font-size: 1.2rem;
+  box-shadow: 0.05vh 0.05vh 0.5vh 0.25vh rgb(30, 57, 87);
+  text-shadow: 0.1rem 0.1rem 0.2rem #99552e;
+  line-height: 1;
+}
+.navigation-button button:hover,
+.search-button button:hover,
+.back-button button:hover,
+.locale-button button:hover {
+  background: white;
+  color: #e27a3f;
+  border: 3px solid;
+  border-color: #e27a3f;
+  box-shadow: 0.1vh 0.1vh 2vh #e27a3f;
+}
+.search-button button:hover {
+  border-color: white;
+  text-shadow: 0.1rem 0.1rem 0.2rem rgb(30, 57, 87);
+  box-shadow: 0.1vh 0.1vh 1vh 0.5vh rgb(30, 57, 87);
+}
+.locale-button button:hover {
+  border-color: white;
+  text-shadow: 0.05rem 0.05rem rgb(30, 57, 87);
+  box-shadow: 0.1vh 0.1vh 1vh 0.5vh rgb(30, 57, 87);
+}
+
+.back-button button {
+  border: none;
+
+  box-shadow: 0.1vh 0.1vh 1vh black;
+}
+a {
+  text-decoration: none;
+}
+
+.navigation-button button:active,
+.search-button button:active,
+.locale-button button:active {
+  background: #d15b17;
+  color: white;
+  border: 3px solid;
+  border-color: #d15b17;
+}
+
+.navigation-button button:disabled {
+  background: #aaa;
+  color: white;
+  border: 3px solid;
+  border-color: #aaa;
+  box-shadow: 0.1vh 0.1vh 1vh black;
+}
