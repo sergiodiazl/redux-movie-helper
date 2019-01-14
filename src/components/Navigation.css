@@ -12,6 +12,7 @@
 	top:0;
 	display: flex;
 	flex-direction: column;
+ overflow: hidden auto;
 	margin-bottom: 15%;
 }
 .locale-options{
@@ -28,5 +29,12 @@
 	.navigation-options{
 	
 		top:0;
+	}
+}
+@media ( max-width :599px){
+	.navigation{
+		
+		width: 100vw;
+		
 	}
 }

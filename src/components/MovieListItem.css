@@ -86,7 +86,7 @@
   @media ( max-width :600px){
 	
 		.movie-item {
-			flex-basis: 45%;
+			flex-basis: 38%;
 			box-sizing: border-box;
 			margin: 1.5%;
 			display: flex;

@@ -20,7 +20,7 @@ const Movies = ({ movies, page, totalPages,nextPage,previousPage ,texts}) => (
           <span>{`${texts.page} ${page} ${texts.of} ${totalPages}`}</span>
          
             <div className="navigation-button">
-            <button onClick={nextPage}disabled={page >= totalPages }>{texts.previous}</button>
+            <button onClick={nextPage}disabled={page >= totalPages }>{texts.next}</button>
             </div>
           
         </div>

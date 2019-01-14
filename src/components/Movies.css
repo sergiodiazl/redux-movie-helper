@@ -22,6 +22,7 @@ text-align: center;
     color: #e27a3f;
     justify-content: space-between;
     padding: 40px 20px;
+    text-align: center;
   }
   .pagination span{
     font-size: 2rem;

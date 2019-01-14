@@ -4,7 +4,7 @@ import Main from './containers/Main';
 import MovieContainer from'./containers/MovieContainer';
 import NotFoundContainer from './containers/NotFoundContainer';
 import './App.css';
-
+import './serviceWorker.js'
 import { BrowserRouter, Switch, Route } from "react-router-dom"
 const App = () => {
   return (
