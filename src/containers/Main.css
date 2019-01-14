@@ -7,7 +7,7 @@
 
 @media ( max-width :600px){
 	.main{
-		width: 100vw;
+	
 		display: flex;
 		flex-direction: column;
 		

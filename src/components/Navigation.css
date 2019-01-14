@@ -24,17 +24,3 @@
 }
  
   
-
-@media ( max-width :600px){
-	.navigation-options{
-	
-		top:0;
-	}
-}
-@media ( max-width :599px){
-	.navigation{
-		
-		width: 100vw;
-		
-	}
-}
