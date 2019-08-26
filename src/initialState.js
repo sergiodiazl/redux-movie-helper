@@ -16,8 +16,8 @@ export default  {
   texts: es,
     year: {
       label: 'year',
-      min: 1950,
-      max: 2018,
+      min: 1940,
+      max: 2020,
       step: 1,
       value: { min: 2000, max: 2018 }
     },
