@@ -20,7 +20,7 @@ class Movie extends React.Component {
     const year = release_date ? release_date.substring(0, 4) : null;
    const{isLoading}=this.props;
     const backgroundStyle = {
-      backgroundImage: `url(http://image.tmdb.org/t/p/w1280/${backdrop_path})`
+      backgroundImage: `url(https://image.tmdb.org/t/p/w1280/${backdrop_path})`
     }
     const{texts}=this.props
     return (
