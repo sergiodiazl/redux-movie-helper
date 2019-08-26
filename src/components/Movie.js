@@ -29,7 +29,9 @@ class Movie extends React.Component {
     <div className="movie-page"> 
     
     <div>
-          <div className="movie-image" style={backgroundStyle} />
+          <div className="movie-image" style={backgroundStyle} >
+           
+          </div>
           <div className="movie-details">
             <h1>
               {title}
