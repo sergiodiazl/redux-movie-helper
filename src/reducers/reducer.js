@@ -54,20 +54,29 @@ const movieList = state => {
   if (Object.getOwnPropertyNames(genre).length > 0) {
     genreId = `with_genres=${genre.value}`;
   }
-
+  /*https://api.themoviedb.org/3/discover/movie?api_key=APIKEY&
+  language=LOCALE&sort_by=popularity.desc&
+  with_genres=12&
+  primary_release_date.gte=2000-01-01&
+  primary_release_date.lte=2018-12-31&
+  vote_average.gte=&
+  vote_average.lte=10
+  &with_runtime.lte=120
+  &page=1
+  */
   const moviesUrl =
     `https://api.themoviedb.org/3/discover/movie?` +
-    `api_key=${process.env.REACT_APP_TMDB_API_KEY}` +
+    `api_key=${process.env.REACT_APP_TMDB_API_KEY}&` +
     `language=${locale}&sort_by=popularity.desc&` +
     `${genreId}&` +
     `primary_release_date.gte=${year.value.min}-01-01&` +
     `primary_release_date.lte=${year.value.max}-12-31&` +
     `vote_average.gte=${rating.value.min}&` +
     `vote_average.lte=${rating.value.max}&` +
-    `with_runtime.gte=${runtime.value.min}&` +
-    `with_runtime.lte=${runtime.value.max}&` +
+    `runtime.gte=${runtime.value.min}&` +
+    `runtime.lte=${runtime.value.max}&` +
     `page=${page}`;
-
+  console.log(moviesUrl)
   return moviesUrl;
 };
 
